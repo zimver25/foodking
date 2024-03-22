@@ -1,0 +1,100 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --c-red: red;
+    --c-yellow: yellow;
+    --c-white: white;
+    --c-black: black;
+    --c-grey: #afa9ac;
+    --f-R: 'Khand';
+}
+
+.navbar-top__content-pic{
+    width: 8px;
+    height: 15px;
+}
+
+.navbar-top__content-link{
+    padding-right: 5px;
+}
+
+.navbar-top__content-item{
+    margin-top: 14px;
+}
+
+.navbar-top__content-link:first-of-type{
+    padding-left: 15px;
+}
+
+.navbar-top__content-list{
+    background-color: var(--c-black);
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.navbar-top__content{
+    justify-content: space-between;
+}
+
+.form__input{
+    border-radius: 0;
+    border: 1px solid var(--c-grey);
+    margin-right: 0;
+}
+
+.navbar-top__content-desc{
+    color: var(--c-black);
+    font-family: var(--f-R);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.navbar-top__content-desc span{
+    color: var(--c-red);
+}
+
+.navbar-top__content-btn{
+    color: var(--c-black);
+    font-family: var(--f-R);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.navbar-top__content-btn:hover{
+    text-decoration: underline;
+}
+
+.line{
+    position: absolute;
+    background-color: var(--c-grey);
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 55px;
+}
+
+.navbar__content{
+    background-color: var(--c-white) !important;
+}
+
+.navbar__content-list{
+    display: flex;
+    justify-content: center;
+}
