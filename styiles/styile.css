@@ -164,7 +164,7 @@ a {
 
 .navbar__menu-logo::before {
     bottom: -25px;
-    left: 259px;
+    left: 266px;
 }
 
 .navbar__content-end {
@@ -179,7 +179,7 @@ a {
 }
 
 .carousel__content-title {
-    font-size: 125px;
+    font-size: 175px;
     text-align: start;
     width: 564px;
     color: var(--c-black);
@@ -188,7 +188,7 @@ a {
 
 .carousel__content-desc {
     color: var(--c-red);
-    font-size: 20px;
+    font-size: 25px;
     text-align: start;
     margin-left: 5px;
     margin-bottom: 0px;
@@ -223,7 +223,11 @@ a {
 
 
 
-
+@media(max-width:1200px){
+    .carousel__content-title{
+        font-size: 155px;
+    }
+}
 
 @media(max-width:1200px) {
     .navbar__content-btn {
@@ -231,7 +235,7 @@ a {
     }
 
     .navbar__menu-logo::before {
-        left: 228px;
+        left: 234px;
     }
 }
 
@@ -301,7 +305,7 @@ a {
     }
 
     .navbar__menu-logo::before {
-        left: 199px;
+        left: 206px;
     }
 }
 
@@ -314,7 +318,7 @@ a {
     }
 
     .navbar__menu-logo::before {
-        left: 173px;
+        left: 180px;
     }
 
     .navbar__menu-logo::after {
