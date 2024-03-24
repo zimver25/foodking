@@ -395,7 +395,64 @@ a {
     position: relative;
 }
 
+.acts{
+    position: relative;
+    margin-top: 200px;
+}
 
+.acts__content-pic-main{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.acts__content-pic-burger{
+    position: absolute;
+    left: 162px;
+    top: 25px;
+}
+
+.acts__content-desc{
+    font-family: var(--f-R);
+    font-weight: 700;
+    color: var(--c-red);
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.acts__container, .acts__box{
+    position: relative;
+    z-index: 2;
+}
+
+.acts__content{
+    position: relative;
+}
+
+.acts{
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.acts__content-title{
+    font-family: var(--f-R);
+    font-weight: 700;
+    color: var(--c-white);
+    font-size: 75px;
+    width: 1px;
+    margin-top: -23px;
+}
+
+.acts__content-pic-sale{
+    position: absolute;
+    right: 76px;
+    bottom: -120px;
+}
+
+.acts__content-pic-pizza{
+    height: 100%;
+    margin-top: 30px;
+}
 
 
 
